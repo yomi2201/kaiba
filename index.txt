@@ -1,0 +1,17 @@
+Error:
+AppControllerTest#test_should_get_about:
+NameError: undefined local variable or method `app_about_url' for #<AppControllerTest:0x0000563ab69070f8>
+    test/controllers/app_controller_test.rb:15:in `block in <class:AppControllerTest>'
+about test root none
+
+Error:
+AppControllerTest#test_should_get_about:
+AbstractController::ActionNotFound: The action 'about' could not be found for AppController
+    test/controllers/app_controller_test.rb:15:in `block in <class:AppControllerTest>'
+about action none
+
+AppControllerTest#test_should_get_about:
+ActionController::UnknownFormat: AppController#about is missing a template for this request format and variant.
+about html .erb  none
+
+assert_selectメソッドでは、特定のHTMLタグが存在するかどうかをテストします
